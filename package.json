@@ -1,0 +1,29 @@
+{
+  "name": "festivalmusica_inicio",
+  "version": "1.0.0",
+  "description": "Aprendiendo Gulp y SASS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gerox-01/Festival_Musica.git"
+  },
+  "keywords": [
+    "SASS",
+    "Gulp",
+    "web",
+    "design"
+  ],
+  "author": "Gerónimo Quiroga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gerox-01/Festival_Musica/issues"
+  },
+  "homepage": "https://github.com/gerox-01/Festival_Musica#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
+  }
+}
