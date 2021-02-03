@@ -5,16 +5,25 @@ const sass = require('gulp-sass');
 function css() {
     return src ('src/scss/app.scss')
         .pipe(sass({
-            outputStyle: 'expanded'
+            outputStyle: 'comprased'
         }))
         .pipe(dest('./build/css'))
 
 }
 function watchArchivos() {
-    watch('src/scss/app.scss', css)
+    watch('src/scss/**/*.scss', css) //* = la carpeta actual - ** = Todos los archivos con esa extensión
 }
 exports.css = css;
 exports.watchArchivos = watchArchivos;
+
+
+
+
+
+
+
+
+
 //Practica o inducción acerca de la funcionalidad de gulp que es mediante funciones de js y sobre serie (ejecuta las funciones en orden) y parallel (ejeucta las funciones por tiempo vs proceso)
 // function css(done) {
 //     console.log('Compilando CSS...');
