@@ -12,9 +12,9 @@
             <h1>Rock & EDM Festival</h1>
 
             <nav class="navegacion-principal">
-                <a href="#" class="">Line Up</a>
-                <a href="#" class="">Galeria</a>
-                <a href="#" class="">Boletos</a>
+                <a href="#lineup" class="">Line Up</a>
+                <a href="#galeria" class="">Galeria</a>
+                <a href="#boletos" class="">Boletos</a>
             </nav>
         </div>
     </header>
@@ -43,7 +43,7 @@
         </div>       
     </div>
 
-    <section class="lineup">
+    <section id="lineup" class="lineup">
         <h3>Line Up</h3>
 
         <p class="dia">Viernes 21</p>
@@ -108,8 +108,99 @@
 
             </div>
         </div>
-
     </section>
+
+    <section id="galeria" class="galeria contenedor">
+        <h3>Galeria</h3>
+        <ul class="galeria-imagenes"></ul>
+    </section>
+
+    <section id="boletos" class="boletos bg-verde">
+        <h3>Boletos</h3>
+        <div class="contenedor-boletos contenedor">
+            <div class="basico plan">
+                <p>Pase 1 día</p>
+
+                <table class="pase">
+                    <thead>
+                        <tr>
+                            <th>
+                                Incluye
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                Acceso a todos los escenarios
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Comida y Bebida
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>
+                                $100.000
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <div class="premium plan">
+                <p>Pase 2 días</p>
+
+                <table class="pase">
+                    <thead>
+                        <tr>
+                            <th>
+                                Incluye
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                Acceso a todos los escenarios
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Comida y Bebida
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Camisa del evento
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Acceso VIP
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>
+                                $100.000
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Rock & EDM Festival. Todos los derechos reservados </p>
+    </footer>
+
+    <script src="build/js/bundle.js"></script>
+
 
 </body>
 </html>
